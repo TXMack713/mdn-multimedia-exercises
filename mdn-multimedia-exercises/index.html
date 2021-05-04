@@ -11,11 +11,24 @@
     <header>
         <h1>MDN Embedding Video and Audio Active Learning</h1>
     </header>
+    <hr>
 <main>
-    <video controls>
+    <h3>Embedded Video Example</h3>
+    <video controls  poster="poster.png" width="60%" allowfullscreen="auto">
         <source src="rabbit320.webm" type="video/webm">
-        <p>Your browser doesn't HTML5 video. Here's a <a href="rabbit320.webm">link</a> to the video.</p>
+        <source src="rabbit320.mp4" type="video/mp4">
+        <p>Your browser doesn't support HTML5 video. Here's a <a href="rabbit320.webm">link</a> to the video.</p>
     </video>
+    <hr>
+    <h3>Embedded Audio Example</h3>
+    <audio controls>
+        <source src="viper.mp3" type="audio/mp3">
+        <source src="viper.ogg" type="audio/ogg">
+        <p>Your browser doesn't support HTML5 audio. Here's a <a href="viper.mp3">link</a> to the audio for you to download.</p>
+    </audio>
+    <hr>
+    <h3>Embedded I-Frame Example</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/7XVWR-5fiG0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </main>
 </body>
 </html>
